@@ -245,6 +245,7 @@ footer .contenedor{
 }
 #hero1 h1{
     color: rgb(201, 254, 249);
+    animation: fade 600ms;
 }
 
     /* Tarjeta contactar */
