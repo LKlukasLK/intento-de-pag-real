@@ -5,6 +5,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scale: 1;
+    animation: fade 750ms;
 }
 
 h1{ font-size: 3.5em;}
@@ -351,4 +353,11 @@ input::placeholder, textarea::placeholder{
     min-width: 100%;
     max-height: 500px;
     min-height: 100px;
+}
+
+@keyframe fade {
+    from {
+        opacity: 0%;
+        scale: 50%;
+    }
 }
