@@ -134,8 +134,9 @@ header a:hover{
     border-radius: 15px;
 }
 #servicios .carta:hover{
-    transition-duration: 500ms;
-    transform: scale(1.05,1.05);
+    /* transition-duration: 500ms;
+    transform: scale(1.01,1.01); */
+    border:  solid 2px white;
 }
 .carta:first-child{
     background-image: linear-gradient(
