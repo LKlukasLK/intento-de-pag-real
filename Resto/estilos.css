@@ -75,7 +75,7 @@ header a{
     color: black;
 }
 header a:hover{
-    transition-duration: 400ms;
+    transition-duration: 300ms;
     transform: scale(1.2,1.2);
     color: rgb(107, 248, 255);
 
@@ -136,7 +136,7 @@ header a:hover{
 #servicios .carta:hover{
     /* transition-duration: 500ms;
     transform: scale(1.01,1.01); */
-    border:  solid 2px white;
+    border:  solid 2px rgb(47, 0, 158);
 }
 .carta:first-child{
     background-image: linear-gradient(
